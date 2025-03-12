@@ -1,0 +1,40 @@
+en:
+  languageName: English
+  weight: 1
+  ### copyright (markdown can be used) ###
+  copyright: "Copyright &copy; {{< current_year >}} LaTech MSA. All Rights Reserved. [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) for Hugo by [CNCF](https://www.cncf.io)."
+  title: "LaTech MSA"
+  params:
+    description: ""    ### accessibility ###
+    accessibility:
+      skip_text: "Skip to content"
+      help_text: "Accessibility Statement"
+      help_url: "/example-page/"
+    ### calls to action ###
+    main_cta:
+      text: "Join"
+      link: "/example-page/"
+    footer_cta:
+      text: "Join us"
+      link: "/example-page/"
+    github_edit: "Edit this page on GitHub"
+  ### example menu showing children ###
+  menu:
+    main:
+    - identifier: "home"
+      name: "Home"
+      url: "/"
+      weight: 1
+    - identifier: "board"
+      name: "Board"
+      url: "/board"
+      weight: 2
+    - identifier: "blog"
+      name: "Blog"
+      url: "/blog/"
+      weight: 3
+    - identifier: "contact"
+      name: "Contact"
+      url: "/contact"
+      weight: 4
+      
